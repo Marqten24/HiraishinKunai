@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="hiraishinkunai"
+version="1.0.0"
+displayName="Hiraishin Kunai"
+authors="Marques"
+description="Hiraishin Kunai for Minecraft Forge 1.20.1. Charged throwing, billboarding distance indicators, teleportation and persistent marks on blocks and living entities."
+[[dependencies.hiraishinkunai]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.hiraishinkunai]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
