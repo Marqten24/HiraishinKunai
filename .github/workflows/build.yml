@@ -21,8 +21,10 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Gradle
+      - name: Set up Gradle 8.8
         uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.8'
 
       - name: Build mod
         run: gradle --no-daemon -p HiraishinKunai-Forge-1.20.1-source/HiraishinKunai-Forge-1.20.1 build
